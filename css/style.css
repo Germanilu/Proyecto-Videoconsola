@@ -1,0 +1,119 @@
+/* EL body tiene flex para centrar la GameBoy */
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+
+/* Bordes Externos de la Gameboy con propiedad Flex */
+.bordes-gameboy{
+    background-color: #573db0;
+    height: 40em;
+    width: 25em;
+    border-radius: 0.5em 0.5em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Borde inferior de la GameBoy echo con clip-path */
+.borde-inferior-gameboy{
+    background-color: #573db0;
+    width: 24.8em;
+    height: 14em;
+    margin-top: -0.9em;
+    clip-path: ellipse(50% 23% at 50% 1%);
+}
+/* Borde Pantalla negra */
+.bordes-negros-gameboy{
+    width: 22em;
+    height: 15em;
+    margin-top: 1.5em;
+    border-radius: 0.5em 0.5em 1em 1em;
+    background-color: #363b3c;
+}
+/* Borde inferior pantalla negra echo con clip-path */
+.borde-inferior-pantalla{
+    width: 21em;
+    height: 4em;
+    margin-top: -0.25em;
+    background-color: #363b3c;
+    clip-path: ellipse(50% 23% at 50% 1%);
+}
+/* Contenedor power y display  */
+.contenedor-power-y-display{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1em;
+}
+
+/* Contenedor Power */
+.contenedor-power{
+    width: 3em;
+    height: 2em;
+    background-color: white;
+    margin-left: -3em;
+    margin-right: 0.1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+/* Div contenedor de la luz de encendido y las medias lunas. */
+.contenedor-encendido-medialuna{
+    display: flex;
+    margin-top: 0.1em;
+}
+
+/* Circulo de Encendido */
+.circulo-encendido{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: red;
+    border-radius: 50%;
+    margin-right: 0.1em;
+    
+}
+
+/* Medialuna echa por dos circulos sobrepuestos. HAY QUE ARREGLAR EL MARGIN RIGHT PARA QUE SE JUNTEN Y NO SE SOBREPONGAN. */
+.medialuna{
+    width: 0.5em;
+    height: 0.5em;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: -0.32em;
+    margin-right: 0.24em;
+
+   
+}
+
+.medialuna1{
+    width: 0.3em;
+    height: 0.5em;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: -0.01em;
+    z-index: 1;
+}
+
+
+/* Texto power HAY QUE ACABARLO */
+.power-text{
+    font-size: 10px;
+}
+
+/* Display Gris GameBoy */
+.display{
+    width: 13em;
+    height: 11em;
+    background-color: #cbcfbd;
+}
+
+/* Logo GameBoy */
+.Gameboy-logo{
+    text-align: center;
+    color: white;
+}
