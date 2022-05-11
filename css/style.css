@@ -78,7 +78,7 @@ body{
     
 }
 
-/* Medialuna echa por dos circulos sobrepuestos. HAY QUE ARREGLAR EL MARGIN RIGHT PARA QUE SE JUNTEN Y NO SE SOBREPONGAN. */
+/* Medialuna echa por dos circulos sobrepuestos. */
 .medialuna{
     width: 0.5em;
     height: 0.5em;
@@ -100,7 +100,7 @@ body{
 }
 
 
-/* Texto power HAY QUE ACABARLO */
+/* Texto power */
 .power-text{
     font-size: 10px;
 }
