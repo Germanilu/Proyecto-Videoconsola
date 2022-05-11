@@ -43,6 +43,7 @@ body{
     margin-top: 1.5em;
     border-radius: 0.5em 0.5em 1em 1em;
     background-color: #363b3c;
+    border: 0.1em solid hsl(195, 5%, 16%);
 }
 /* Borde inferior pantalla negra echo con clip-path */
 .borde-inferior-pantalla{
@@ -51,6 +52,7 @@ body{
     margin-top: -0.25em;
     background-color: #363b3c;
     clip-path: ellipse(50% 23% at 50% 1%);
+    
 }
 /* Contenedor power y display  */
 .contenedor-power-y-display{
@@ -119,6 +121,8 @@ body{
     height: 12em;
     background-color: #cbcfbd;
     margin-top: 0.5em;
+    box-shadow: inset 0px 0px 13px 4px rgba(0,0,0,0.75);
+    border: 0.1em solid hsl(195, 5%, 16%);
 }
 
 /* Texto Logo GameBoy */
