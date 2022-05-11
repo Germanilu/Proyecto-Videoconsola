@@ -1,3 +1,6 @@
+/* import font from googleFonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@300;400;700;900&display=swap');
+
 /* EL body tiene flex para centrar la GameBoy */
 body{
     display: flex;
@@ -70,8 +73,8 @@ body{
 
 /* Circulo de Encendido */
 .circulo-encendido{
-    width: 0.5em;
-    height: 0.5em;
+    width: 0.6em;
+    height: 0.6em;
     background-color: red;
     border-radius: 50%;
     margin-right: 0.1em;
@@ -80,7 +83,7 @@ body{
 
 /* Luna echa por dos divs sobrepuestos. */
 .luna{
-    width: 0.2em;
+    width: 0.25em;
     height: 0.5em;
     background-color: rgb(255, 255, 255);
     border-radius: 0% 50% 50% 0%;
@@ -96,12 +99,12 @@ body{
 }
 
 
-
 /* Texto power */
 .power-text{
-    font-size: 0.45em;
+    font-size: 0.5em;
     color: white;
-    margin-top: 0.5em;
+    margin-top: 0.1em;
+    font-family: 'Lato', sans-serif;
 }
 
 /* Display Gris GameBoy */
@@ -116,4 +119,6 @@ body{
 .Gameboy-logo{
     text-align: center;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
+
