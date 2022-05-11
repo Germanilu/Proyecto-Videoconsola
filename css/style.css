@@ -41,19 +41,32 @@ body{
     width: 22em;
     height: 17em;
     margin-top: 1.5em;
-    border-radius: 0.5em 0.5em 1em 1em;
+    border-radius: 0.5em 0.5em 1em 1.05em;
     background-color: #363b3c;
-    border: 0.1em solid hsl(195, 5%, 16%);
+    border: 0.15em solid hsl(195, 5%, 16%);
+    
 }
 /* Borde inferior pantalla negra echo con clip-path */
 .borde-inferior-pantalla{
     width: 21em;
     height: 4em;
+    margin-top: -0.17em;
+    background-color: hsl(195, 5%, 16%);
+    clip-path: ellipse(50% 23% at 50% 1%);
+    position: relative;
+}
+
+/* Border inferior pantalla negra duplicado y sobrepuesto al original para poder conseguir un border-bottom negro a clip-path */
+.sombra-inferior-pantalla{
+    width: 20.9em;
+    height: 3.9em;
     margin-top: -0.25em;
     background-color: #363b3c;
     clip-path: ellipse(50% 23% at 50% 1%);
-    
+    position: absolute;
+    bottom: 0.2em;
 }
+
 /* Contenedor power y display  */
 .contenedor-power-y-display{
     display: flex;
