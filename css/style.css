@@ -121,6 +121,8 @@ body{
     margin-top: 0.5em;
 }
 
+/* Texto Logo GameBoy */
+
 .logo{
     margin-top: -0.9em;
 }
@@ -134,9 +136,28 @@ body{
     font-weight: bold;
 }
 
+/* Texto Color con fuente Felt Tip Roman */
 .colorLogoText{
     font-family: Felt Tip Roman;
-    font-size: 1.2em;
-    letter-spacing: -0.08em;
+    font-size: 1.3em;
+    letter-spacing: -0.18em;
+    
+}
+
+/* Color de cada letra del logo */
+.letraRoja{
+    color: #a73569;
+}
+.letraVioleta{
+    color: #643a8d;
+}
+.letraVerde{
+    color: #a4d562;
+}
+.letraAmarilla{
+    color: #cdc44f;
+}
+.letraAzul{
+    color: #4489a7;
 }
 
