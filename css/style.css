@@ -92,15 +92,17 @@ body{
     margin-top: 0.1em;
 }
 
-/* Circulo de Encendido */
-.circulo-encendido{
+/* Led de Encendido con animación */
+.led-encendido{
     width: 0.6em;
     height: 0.6em;
-    background-color: red;
+    background-color: #ee2400;
     border-radius: 50%;
-    margin-right: 0.1em;
-    
+    margin-right: 0.1em; 
+    animation: parpadeo 1.3s infinite;
+    box-shadow: inset 0px 0px 6px 5px rgba(150,27,5,1);
 }
+
 
 /* Luna echa por dos divs sobrepuestos. */
 .luna{
@@ -178,3 +180,21 @@ body{
     color: #4489a7;
 }
 
+
+
+/* Keyframe Animación Parpadeo Led */
+
+@keyframes parpadeo{
+    0%{
+        background-color: #ee2400;
+        box-shadow: inset 0px 0px 6px 5px rgba(150, 27, 5, 0.511);
+    }
+    50%{
+        background-color: #ee2400;
+        box-shadow: inset 0px 0px 0px 0px rgba(150, 27, 5, 0.505);
+    }
+    100%{
+        background-color: #ee2400;
+        box-shadow: inset 0px 0px 6px 5px rgba(150, 27, 5, 0.511);
+    }
+}
