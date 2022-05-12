@@ -188,14 +188,14 @@ body{
 .contenedor-logo-nintendo{
     width: 7em;
     height: 1.2em;
-    border: 0.15em solid #5f46b2;
+    border: 0.15em solid #7362b29c;
     border-radius: 1.5em ;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: -2em;
     font-family: Pretendo;
-    color: #5f46b2;
+    color: #7362b29c;
     padding: 0.1em 0em 0.1em 0em;
 }
 
@@ -230,7 +230,7 @@ body{
     border-right: 0.01em solid black;
     border-left: 0.01em solid black;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
     color: #232323;
     cursor: pointer;
     border-radius: 0.35em 0.35em 0em 0em;
@@ -242,7 +242,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba
     border-top: 0.01em solid black;
     border-bottom: 0.01em solid black;
     background: rgb(1,0,11);
-background: linear-gradient(90deg, rgb(30, 29, 35) 0%, rgb(21, 21, 26) 35%, rgba(3,0,41,1) 100%);
+    background: linear-gradient(90deg, rgb(30, 29, 35) 0%, rgb(21, 21, 26) 35%, rgba(3,0,41,1) 100%);
     color: #232323;
     cursor: pointer;
     border-radius: 0.35em 0em 0em 0.35em; 
@@ -252,7 +252,7 @@ background: linear-gradient(90deg, rgb(30, 29, 35) 0%, rgb(21, 21, 26) 35%, rgba
     width: 2em;
     height: 2.1em;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
     color: #232323;    
 }
 
@@ -270,7 +270,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba
     border-top: 0.01em solid black;
     border-bottom: 0.01em solid black;
     background: rgb(69,72,73);
-background: linear-gradient(90deg, rgba(69,72,73,1) 0%, rgba(71,75,77,1) 35%, rgba(81,85,87,1) 78%);
+    background: linear-gradient(90deg, rgba(69,72,73,1) 0%, rgba(71,75,77,1) 35%, rgba(81,85,87,1) 78%);
     color: #232323;
     cursor: pointer;
     border-radius: 0em 0.35em 0.35em 0em;
@@ -281,7 +281,7 @@ background: linear-gradient(90deg, rgba(69,72,73,1) 0%, rgba(71,75,77,1) 35%, rg
     border-right: 0.01em solid black;
     border-left: 0.01em solid black;
     background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
     color: #232323;
     cursor: pointer;
     border-radius: 0em 0em 0.35em 0.35em;  
@@ -315,6 +315,7 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba
     font-weight: bold;
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
 
@@ -331,13 +332,58 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba
     justify-content: center;
     align-items: center;
     font-weight: bold;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
 }
 
 .letra-boton{
     font-size: 1.5em;
     font-family: 'Lato', sans-serif;
+    
 }
 
+/* Botones Select & Start */
+
+.contenedor-botones-select-start{
+    width: 7em;
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 2.5em;
+    
+}
+
+.contenedor-select{
+    width: 2em;
+    height: 0.5em;
+    background: rgb(58,59,54);
+    background: linear-gradient(0deg, rgba(58,59,54,1) 0%, rgba(74,75,70,1) 82%);
+    border-radius: 1em ;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-start{
+    width: 2em;
+    height: 0.5em;
+    background: rgb(58,59,54);
+    background: linear-gradient(0deg, rgba(58,59,54,1) 0%, rgba(74,75,70,1) 82%);
+    border-radius: 1em;
+    box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-button-text{
+    font-size: 0.6em;
+    margin-top: 1.4em;
+    margin-left: 0.2em;
+    color: #7462b2;
+    font-family: 'Lato', sans-serif;
+}
 
 /* Keyframe Animación Parpadeo Led */
 
