@@ -9,6 +9,8 @@
     src: url(/font/Pretendo.ttf);
 }
 
+
+
 /* EL body tiene flex para centrar la GameBoy */
 body{
     display: flex;
@@ -206,19 +208,62 @@ body{
     justify-content: space-between;
 }
 
-/* Contenedor flechas de dirección */
+/* Contenedor flechas de dirección con grid*/
 .contenedor-flechas{
     width: 6em;
     height: 6em;
-    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(3,2em);
 }
+
+/* Clase dimension de las flechas */
+.dimension-flechas{
+    width: 2em;
+    height: 2em;
+}
+.contenedor-flecha-arriba{ 
+    border-top: 0.01em solid black;
+    border-right: 0.01em solid black;
+    border-left: 0.01em solid black;
+}
+
+.contenedor-flecha-izquierda{
+    border-left: 0.01em solid black;
+    border-top: 0.01em solid black;
+    border-bottom: 0.01em solid black;
+}
+.contenedor-punto-centro{
+    width: 2em;
+    height: 2em;
+    
+}
+.contenedor-flecha-derecha{
+ 
+    border-right: 0.01em solid black;
+    border-top: 0.01em solid black;
+    border-bottom: 0.01em solid black;
+}
+
+.contenedor-flecha-abajo{
+  
+    border-bottom: 0.01em solid black;
+    border-right: 0.01em solid black;
+    border-left: 0.01em solid black;
+}
+
+
 
 /* Contenedor botones A-B */
 .contenedor-botones{
     width: 6em;
     height: 6em;
     border: 1px solid black;
+
+    
 }
+
+
+
 
 /* Keyframe Animación Parpadeo Led */
 
