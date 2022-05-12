@@ -298,7 +298,44 @@ background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba
 .contenedor-botones{
     width: 6em;
     height: 6em;
-    border: 1px solid black;
+    position: relative;
+}
+
+.contenedorA{
+    width: 3em;
+    height: 3em;
+    background-color: red;
+    border-radius: 50%;
+    position: absolute;
+    top: 0.2em;
+    right: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
+}
+
+
+.contenedorB{
+    width: 3em;
+    height: 3em;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0.2em;
+    left: 0em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.letra-boton{
+    font-size: 1.5em;
+    font-family: 'Lato', sans-serif;
 }
 
 
