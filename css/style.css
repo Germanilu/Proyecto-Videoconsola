@@ -214,6 +214,7 @@ body{
     height: 6em;
     display: grid;
     grid-template-columns: repeat(3,2em);
+    
 }
 
 /* Clase dimension de las flechas */
@@ -221,48 +222,76 @@ body{
     width: 2em;
     height: 2em;
 }
+
+/* Contenedores de cada flecha con respectivos bordes y colores. */
+
 .contenedor-flecha-arriba{ 
     border-top: 0.01em solid black;
     border-right: 0.01em solid black;
     border-left: 0.01em solid black;
+    background-color: #2b2f30;
+    color: #232323;
+    cursor: pointer;
+    border-radius: 0.35em 0.35em 0em 0em;
 }
 
 .contenedor-flecha-izquierda{
     border-left: 0.01em solid black;
     border-top: 0.01em solid black;
     border-bottom: 0.01em solid black;
+    background-color: #2b2f30;
+    color: #232323;
+    cursor: pointer;
+    border-radius: 0.35em 0em 0em 0.35em; 
 }
+
 .contenedor-punto-centro{
     width: 2em;
-    height: 2em;
-    
+    height: 2.1em;
+    background-color: #2b2f30;
+    color: #232323;    
 }
+
+.punto-central{
+    width: 1em;
+    height: 1em;
+    background-color: #3f4343ad;
+    border-radius: 50%;
+}
+
 .contenedor-flecha-derecha{
- 
     border-right: 0.01em solid black;
     border-top: 0.01em solid black;
     border-bottom: 0.01em solid black;
+    background-color: #2b2f30;
+    color: #232323;
+    cursor: pointer;
+    border-radius: 0em 0.35em 0.35em 0em;
 }
 
 .contenedor-flecha-abajo{
-  
     border-bottom: 0.01em solid black;
     border-right: 0.01em solid black;
     border-left: 0.01em solid black;
+    background-color: #2b2f30;
+    color: #232323;
+    cursor: pointer;
+    border-radius: 0em 0em 0.35em 0.35em;  
 }
 
-
+/* Sirve para centrar los iconos de las flechas y el punto en sus respectivos divs. */
+.contenedor-flechas div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Contenedor botones A-B */
 .contenedor-botones{
     width: 6em;
     height: 6em;
     border: 1px solid black;
-
-    
 }
-
-
 
 
 /* Keyframe Animación Parpadeo Led */
