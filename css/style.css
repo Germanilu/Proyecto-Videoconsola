@@ -5,6 +5,8 @@
 @font-face {
     font-family: 'Felt Tip Roman';
     src: url(/font/Felt\ Tip\ Roman\ Regular.ttf);
+    font-family: 'Pretendo';
+    src: url(/font/Pretendo.ttf);
 }
 
 /* EL body tiene flex para centrar la GameBoy */
@@ -178,6 +180,21 @@ body{
 }
 .letraAzul{
     color: #4489a7;
+}
+
+
+.contenedor-logo-nintendo{
+    width: 7em;
+    height: 1.2em;
+    border: 0.15em solid #5f46b2;
+    border-radius: 1.5em ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -1.5em;
+    font-family: Pretendo;
+    color: #5f46b2;
+    
 }
 
 
