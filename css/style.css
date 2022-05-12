@@ -24,9 +24,9 @@ body{
 /* Bordes Externos de la Gameboy con propiedad Flex */
 .bordes-gameboy{
     background-color: #573db0;
-    height: 65em;
+    height: 70em;
     width: 25em;
-    border-radius: 0.5em 0.5em 1em 1em;
+    border-radius: 0.5em 0.5em 0.98em 0.98em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,10 +35,10 @@ body{
 /* Borde inferior de la GameBoy echo con clip-path */
 .borde-inferior-gameboy{
     background-color: #573db0;
-    width: 24.8em;
+    width: 24.9em;
     height: 14em;
-    margin-top: -0.7em;
-    clip-path: ellipse(50% 23% at 50% 1%);
+    margin-top: -0.73em;
+    clip-path: ellipse(50% 25% at 50% 1%);
 }
 /* Borde Pantalla negra */
 .bordes-negros-gameboy{
@@ -54,9 +54,9 @@ body{
 .borde-inferior-pantalla{
     width: 21em;
     height: 4em;
-    margin-top: -0.17em;
+    margin-top: -0.21em;
     background-color: hsl(195, 5%, 16%);
-    clip-path: ellipse(50% 23% at 50% 1%);
+    clip-path: ellipse(50% 25% at 50% 1%);
     position: relative;
 }
 
@@ -64,7 +64,7 @@ body{
 .sombra-inferior-pantalla{
     width: 20.9em;
     height: 3.9em;
-    margin-top: -0.25em;
+    margin-top: -0.24em;
     background-color: #363b3c;
     clip-path: ellipse(50% 23% at 50% 1%);
     position: absolute;
@@ -316,6 +316,7 @@ body{
     background: rgb(2,0,36);
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(43,47,48,1) 35%, rgba(69,72,73,1) 100%);
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
 
 
@@ -333,6 +334,7 @@ body{
     align-items: center;
     font-weight: bold;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
+    cursor: pointer;
 }
 
 .letra-boton{
@@ -350,6 +352,7 @@ body{
     align-items: center;
     justify-content: space-around;
     margin-top: 2.5em;
+   
     
 }
 
@@ -363,6 +366,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .contenedor-start{
@@ -375,6 +379,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .mid-button-text{
