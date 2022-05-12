@@ -385,12 +385,13 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+
 /* Keyframe Animación Parpadeo Led */
 
 @keyframes parpadeo{
     0%{
         background-color: #cbcfbd;
-        box-shadow: inset 0px 0px 6px 5px rgba(150, 27, 5, 0.511);
+        box-shadow: inset 0px 0px 6px 5px #a7776f;
     }
     50%{
         background-color: #ee2400;
@@ -398,6 +399,6 @@ body{
     }
     100%{
         background-color: #cbcfbd;
-        box-shadow: inset 0px 0px 6px 5px rgba(150, 27, 5, 0.511);
+        box-shadow: inset 0px 0px 6px 5px #a7776f;
     }
 }
