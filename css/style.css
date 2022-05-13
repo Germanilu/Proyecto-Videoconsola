@@ -4,7 +4,7 @@
 /* Uso de Font-Face para importar font 'Felt Tip Roman' */
 @font-face {
     font-family: 'Felt Tip Roman';
-    src: url(/font/Felt\ Tip\ Roman\ Regular.ttf);
+    src: url(../font/Felt\ Tip\ Roman\ Regular.ttf);
     font-family: 'Pretendo';
     src: url(/font/Pretendo.ttf);
 }
