@@ -364,7 +364,7 @@ body{
 .contenedor-select{
     width: 2em;
     height: 0.5em;
-    background: rgb(58,59,54);
+    background: #3a3b36;
     background: linear-gradient(0deg, rgba(58,59,54,1) 0%, rgba(74,75,70,1) 82%);
     border-radius: 1em ;
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
@@ -395,6 +395,8 @@ body{
     font-family: 'Lato', sans-serif;
 }
 
+/* Salida de audio Consola */
+
 .contenedor-audio{
     width: 5.5em;
     height: 5.5em;
@@ -422,7 +424,9 @@ body{
 .puntoBlanco{
     width: 0.5em;
     height: 0.5em;
-    background-color: rgb(255, 255, 255);
+    background: rgb(115,98,178);
+    background: radial-gradient(circle, rgba(115,98,178,0.919502835313813) 0%, rgba(115,98,178,1) 66%);
+    box-shadow: inset 0px 0px 5px 1px rgba(44,35,84,1);
     border-radius: 50%;
     margin-right: 3px;
 }
