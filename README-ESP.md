@@ -1,4 +1,4 @@
-# Proyecto Videoconsola portátil en HTML/CSS/JS  :video_game:
+# :video_game: Proyecto Videoconsola portátil en HTML/CSS/JS  
 
 *Si lo prefieres puedes leer esto en* [Ingles](/README.md)
 
@@ -23,7 +23,7 @@ La parte inferior del display de la consola fue realizada con clip-path y para p
 ### Funcionamiento
 
 Puedes encender y apagar la GameBoy presionando el boton "Start"
-Una pequeña función de JavaScript hará que el display se encienda.
+Una pequeña función de JavaScript hará que el display se encienda / apague.
 
 -------------------------------------------------
 

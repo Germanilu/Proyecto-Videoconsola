@@ -1,4 +1,4 @@
-# Video Console Project, done with HTML/CSS and a small JavaScript function :video_game:
+# :video_game: Video Console Project, made with HTML/CSS and JavaScript 
 
 *If you prefer you can read this in* [Spanish](/README-ESP.md)
 
@@ -22,7 +22,7 @@ The bottom part of the display is made with clip-path and, to be able to apply a
 
 ### How to use
 
-You can switch on and off the GameBoy by clicking on the "Start" button, with a small JS function the display will switch on.
+You can switch on and off the GameBoy by clicking on the "Start" button, with a small JS function the display will switch on and off.
 
 -------------------------------------------------
 
