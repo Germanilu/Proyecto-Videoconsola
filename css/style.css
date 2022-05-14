@@ -9,8 +9,8 @@
 
 /* Font-Face para Texto COLOR */
 @font-face {
-    font-family: 'FeltTipRoman';
-    src: url(../font/FeltTipRomanRegular.ttf) format('ttf');
+    font-family: 'FeltTipRomanRegular';
+    src: url(../font/FeltTipRomanRegular.ttf)
 }
 
 /* Font-face para Texto GAME BOY en pantalla negra   */
@@ -25,6 +25,7 @@
     font-family: 'Pretendo';
     src: url(../font/Pretendo.ttf);
 }
+
 
 /* EL body tiene flex para centrar la GameBoy */
 body{
@@ -264,28 +265,24 @@ body{
 .colorLogoText{
     font-size: 1.2em;
     letter-spacing: -0.18em;
+    font-family: FeltTipRomanRegular;
 }
 
 /* Color de cada letra del logo */
 .letraRoja{
     color: #a73569;
-    font-family: FeltTipRoman;
 }
 .letraVioleta{
     color: #643a8d;
-    font-family: FeltTipRoman;
 }
 .letraVerde{
     color: #a4d562;
-    font-family: FeltTipRoman;
 }
 .letraAmarilla{
     color: #cdc44f;
-    font-family: FeltTipRoman;
 }
 .letraAzul{
     color: #4489a7;
-    font-family: FeltTipRoman;
 }
 
 /* Contenedor con logo Nintendo */
