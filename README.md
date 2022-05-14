@@ -1,15 +1,18 @@
-# Proyecto Videoconsola portátil en HTML/CSS
+# Proyecto Videoconsola portátil en HTML/CSS  :video_game:
 
-Esta consola es una Nintendo Game Boy Color creada enteramente con las tecnologias HTML y CSS sin utilizar ninguna imagen,video,gif.
+Esta consola es una Nintendo ***Game Boy <span style="color:#a73569">C</span><span style="color:#643a8d">o</span><span style="color:#a4d562">l</span><span style="color:#cdc44f">o</span><span style="color:#4489a7">r</span>*** creada enteramente con las tecnologías ***HTML y CSS*** sin utilizar ninguna *Imagen, Video o Gif.*
 
+-------------------------------------------------
 
-## Funcionalidades
+##Realización de la consola
 
-Esta consola no tiene ninguna funcionalidad, (todavía...) pero fue conseguida con gran esfuerzo y ha sido un ejercicio estupendo para desarrollar práctica en las tecnologías implementadas.
+Para realizar este proyecto se utilizaron las propiedades display flex y grid, además de utilizar position relative / absolute para posicionar algunos elementos.
 
-### Retos
-1- Pude hacer las "Medias Lunas" que se encuentran a la derecha del led de encendido de la consola sobreponiendo un div a otro div y utilizando un border-radius para generar el efecto curvado de la luna.
+El display y el led rojo están hechos con animaciones de css mientras que a los botones y la rejilla del audio se le aplicó un gradiente para dar efectos de profundidad.
 
-2- Gracias a la inexistencia de la fuente Felt Tip Roman en google font he descubierto la utilidad de la propiedad @Font-face y pude importar y emplear dicha fuente en mi código para implementarla en el texto "color" del logo de la consola.
+La parte inferior del display de la consola fue realizada con clip-path y para poder aplicar el borde inferior se utilizó un div puesto por debajo del div con la propiedad clip-path con un background negro, para poder emular el borde inferior de dicha pantalla.
 
-3- El borde inferior de la pantalla negra de la consola lo pude lograr usando clip-path. Algo más complejo fue aplicar un border-bottom negro para recalcar el detalle de la consola. Esto fue solucionado aplicando otro div con los mismos valores de clip-path y gracias a position:relative ; position: absolute; pude sobreponer los dos < div > y lograr un borde inferior al display negro de mi consola
+-------------------------------------------------
+
+**Ver la consola:** [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)
+
