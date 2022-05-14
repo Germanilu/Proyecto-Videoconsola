@@ -262,7 +262,6 @@ body{
 
 /* Texto Color con fuente Felt Tip Roman */
 .colorLogoText{
-    font-family: Felt Tip Roman;
     font-size: 1.2em;
     letter-spacing: -0.18em;
 }
@@ -270,18 +269,23 @@ body{
 /* Color de cada letra del logo */
 .letraRoja{
     color: #a73569;
+    font-family: Felt Tip Roman;
 }
 .letraVioleta{
     color: #643a8d;
+    font-family: Felt Tip Roman;
 }
 .letraVerde{
     color: #a4d562;
+    font-family: Felt Tip Roman;
 }
 .letraAmarilla{
     color: #cdc44f;
+    font-family: Felt Tip Roman;
 }
 .letraAzul{
     color: #4489a7;
+    font-family: Felt Tip Roman;
 }
 
 /* Contenedor con logo Nintendo */
