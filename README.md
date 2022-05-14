@@ -4,7 +4,7 @@ Esta consola es una Nintendo ***Game Boy <span style="color:#a73569">C</span><sp
 
 -------------------------------------------------
 
-##Realización de la consola
+## Realización de la consola
 
 Para realizar este proyecto se utilizaron las propiedades display flex y grid, además de utilizar position relative / absolute para posicionar algunos elementos.
 
