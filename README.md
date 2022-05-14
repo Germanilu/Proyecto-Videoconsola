@@ -1,17 +1,26 @@
-# Proyecto Videoconsola portátil en HTML/CSS  :video_game:
+# Video Console Project, done with HTML/CSS :video_game:
 
-Esta consola es una Nintendo ***Game Boy <span style="color:#a73569">C</span><span style="color:#643a8d">o</span><span style="color:#a4d562">l</span><span style="color:#cdc44f">o</span><span style="color:#4489a7">r</span>*** creada enteramente con las tecnologías ***HTML y CSS*** sin utilizar ninguna *Imagen, Video o Gif.*
+*If you prefer you can read this in* [Spanish](/Readme/README-ESP.md)
 
-
-## Realización de la consola
-
-Para realizar este proyecto se utilizaron las propiedades display flex y grid, además de utilizar position relative / absolute para posicionar algunos elementos.
-
-El display y el led rojo están hechos con animaciones de css mientras que a los botones y la rejilla del audio se le aplicó un gradiente para dar efectos de profundidad.
-
-La parte inferior del display de la consola fue realizada con clip-path y para poder aplicar el borde inferior se utilizó un div puesto por debajo del div con la propiedad clip-path con un background negro, para poder emular el borde inferior de dicha pantalla.
 
 -------------------------------------------------
 
-**Ver la consola:** [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)
+## Nintendo GameBoy Color
+
+This is a Game Boy ***Game Boy <span style="color:#a73569">C</span><span style="color:#643a8d">o</span><span style="color:#a4d562">l</span><span style="color:#cdc44f">o</span><span style="color:#4489a7">r</span>*** console made with pure ***HTML y CSS*** without the use of *Images, Videos or GIF.*
+
+## How was it built
+
+This project it's made using mostly display flex & grid, I also used position relative / absolute to be able to fix the position of some particular elements.
+
+The display and the led are made with CSS animation, to the buttons and the audio output I've applied a gradient to be able to get an even more realistic depth effect.
+
+The bottom part of the display is made with clip-path and, to be able to apply a border bottom, I use a div positioned under the original div with different background, so I can emulate the border bottom of the black display.
+
+-------------------------------------------------
+
+**You can see the result here:** [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)
+
+
+
 
