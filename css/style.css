@@ -1,21 +1,28 @@
-/* import font from googleFonts */
+/* import font from googleFonts Para texto POWER debajo de led. */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto:wght@300;400;700;900&display=swap');
 
-/* Uso de Font-Face para importar font 'Felt Tip Roman' */
+/* Font-face para Texto COLOR y Texto en pantalla pixelado. */
 @font-face {
     font-family: 'Felt Tip Roman';
     src: url(../font/FeltTipRomanRegular.ttf) format('ttf');
     
     font-family: 'EarlyGameBoy';
     src: url(../font/EarlyGameBoy.ttf);
+
 }
 
-/* Otro font-face para que funcinoe esta fuente. */
+/* Font-face para Texto GAME BOY en pantalla negra   */
+@font-face {
+    font-family: 'GillSansMTBoldItalic';
+    src: url(../font/GillSansMTBoldItalic.ttf);
+}
+
+/* Font-face para logo nintendo */
+
 @font-face {
     font-family: 'Pretendo';
     src: url(../font/Pretendo.ttf);
 }
-
 
 /* EL body tiene flex para centrar la GameBoy */
 body{
@@ -25,7 +32,6 @@ body{
     height: 100vh;
     flex-direction: column;
 }
-
 
 /* Bordes Externos de la Gameboy con propiedad Flex */
 .bordes-gameboy{
@@ -55,8 +61,8 @@ body{
     border-radius: 0.5em 0.5em 1em 1.05em;
     background-color: #363b3c;
     border: 0.15em solid hsl(195, 5%, 16%);
-    
 }
+
 /* Borde inferior pantalla negra echo con clip-path */
 .borde-inferior-pantalla{
     width: 21em;
@@ -159,7 +165,9 @@ body{
 
 .texto-display-gameboy{
     font-family: 'EarlyGameBoy';
-    font-size: 1.5em;
+    font-size: 1.8em;
+    padding-top: 2em;
+    letter-spacing: -0.15em;
 }
 
 .contenedor-nintendo{
@@ -169,6 +177,7 @@ body{
 .texto-display-nintendo{
     font-family: 'EarlyGameBoy';
     font-size: 0.75em;
+    letter-spacing: -0.15em;
 }
 
 /* Logo Registrado echo de esta manera para tener la R con la misma fuente  */
@@ -183,6 +192,7 @@ body{
     justify-content: center;
     border-radius: 50%;
     font-size: 0.5em;
+    padding: 0.1em 0em 0.1em 0.3em;
 }
 
 
@@ -197,17 +207,17 @@ body{
 .gameboy-logo{
     text-align: center;
     color: white;
-    font-family: 'Lato', sans-serif;
-    font-size: 1.5em;
+    font-family: 'GillSansMTBoldItalic';
+    font-size: 1.6em;
     font-weight: bold;
+    letter-spacing: -0.05em;
 }
 
 /* Texto Color con fuente Felt Tip Roman */
 .colorLogoText{
     font-family: Felt Tip Roman;
-    font-size: 1.3em;
+    font-size: 1.2em;
     letter-spacing: -0.18em;
-    
 }
 
 /* Color de cada letra del logo */
