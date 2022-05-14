@@ -9,7 +9,7 @@
 
 /* Font-Face para Texto COLOR */
 @font-face {
-    font-family: 'Felt Tip Roman';
+    font-family: 'FeltTipRoman';
     src: url(../font/FeltTipRomanRegular.ttf) format('ttf');
 }
 
@@ -269,23 +269,23 @@ body{
 /* Color de cada letra del logo */
 .letraRoja{
     color: #a73569;
-    font-family: Felt Tip Roman;
+    font-family: FeltTipRoman;
 }
 .letraVioleta{
     color: #643a8d;
-    font-family: Felt Tip Roman;
+    font-family: FeltTipRoman;
 }
 .letraVerde{
     color: #a4d562;
-    font-family: Felt Tip Roman;
+    font-family: FeltTipRoman;
 }
 .letraAmarilla{
     color: #cdc44f;
-    font-family: Felt Tip Roman;
+    font-family: FeltTipRoman;
 }
 .letraAzul{
     color: #4489a7;
-    font-family: Felt Tip Roman;
+    font-family: FeltTipRoman;
 }
 
 /* Contenedor con logo Nintendo */
