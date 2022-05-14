@@ -2,7 +2,6 @@
 
 Esta consola es una Nintendo ***Game Boy <span style="color:#a73569">C</span><span style="color:#643a8d">o</span><span style="color:#a4d562">l</span><span style="color:#cdc44f">o</span><span style="color:#4489a7">r</span>*** creada enteramente con las tecnologías ***HTML y CSS*** sin utilizar ninguna *Imagen, Video o Gif.*
 
--------------------------------------------------
 
 ## Realización de la consola
 
