@@ -1,6 +1,6 @@
 # Video Console Project, done with HTML/CSS :video_game:
 
-*If you prefer you can read this in* [Spanish](/Readme/README-ESP.md)
+*If you prefer you can read this in* [Spanish](/README-ESP.md)
 
 
 -------------------------------------------------
