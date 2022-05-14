@@ -19,7 +19,7 @@
                 <div class="contenedor-power">
                     <div class="contenedor-encendido-luna">
                         <!-- Led Encendido -->
-                        <div class="led-encendido"></div>
+                        <div id="led" class="led-encendido"></div>
                         <!-- Lunas que se encuentran al lado del led de encendido -->
                         <div class="luna">
                             <div class="coverLuna"></div>
@@ -37,11 +37,11 @@
                 <!-- Display gris de la consola -->
                 <div class="display">
                     <!-- Texto Gameboy con respectivos clases para animar el display -->
-                    <div class="texto-display-gameboy">
+                    <div id="gameboyText" class="texto-display-gameboy">
                         <span class="letraG">G</span><span class="letraA">A</span><span class="letraM">M</span><span class="letraE">E</span> <span class="letraB">B</span><span class="letraO">O</span><span class="letraY">Y</span>
                     </div>
                     <!-- Texto Nintendo y marchio Registrado -->
-                    <div class="contenedor-nintendo">
+                    <div id="nintendoText" class="contenedor-nintendo">
                         <!-- " | " Sirve para escribir el logo nintendo con la fuente EarlyGameBoy en letras minusculas -->
                         <div class="texto-display-nintendo">|</div>
                         <div class="contenedor-registrado">R</div>
@@ -96,7 +96,7 @@
         <!-- Botones Select y Start -->
         <div class="contenedor-botones-select-start">
             <div class="contenedor-select"><p class="mid-button-text">SELECT</p></div>
-            <div class="contenedor-start"><p class="mid-button-text">START</p></div>
+            <div onclick="myFunction()" class="contenedor-start"><p class="mid-button-text">START</p></div>
         </div>
         <!-- Rejilla audio -->
         <div class="contenedor-audio">
@@ -181,5 +181,6 @@
     <!-- Border inferior de la GameBoy -->
     <div class="borde-inferior-gameboy"></div>
    
+    <script src="js/main.js"></script>
 </body>
 </html>
