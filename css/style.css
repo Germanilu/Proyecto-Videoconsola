@@ -5,10 +5,16 @@
 @font-face {
     font-family: 'Felt Tip Roman';
     src: url(../font/FeltTipRomanRegular.ttf) format('ttf');
-    font-family: 'Pretendo';
-    src: url(/font/Pretendo.ttf);
+    
+    font-family: 'EarlyGameBoy';
+    src: url(../font/EarlyGameBoy.ttf);
 }
 
+/* Otro font-face para que funcinoe esta fuente. */
+@font-face {
+    font-family: 'Pretendo';
+    src: url(../font/Pretendo.ttf);
+}
 
 
 /* EL body tiene flex para centrar la GameBoy */
@@ -143,7 +149,43 @@ body{
     margin-top: 0.5em;
     box-shadow: inset 0px 0px 13px 4px rgba(0,0,0,0.75);
     border: 0.1em solid hsl(195, 5%, 16%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
 }
+
+/* Texto Gameboy y Nintendo */
+
+.texto-display-gameboy{
+    font-family: 'EarlyGameBoy';
+    font-size: 1.5em;
+}
+
+.contenedor-nintendo{
+    display: flex;
+}
+
+.texto-display-nintendo{
+    font-family: 'EarlyGameBoy';
+    font-size: 0.75em;
+}
+
+/* Logo Registrado echo de esta manera para tener la R con la misma fuente  */
+
+.contenedor-registrado{
+    height: 1em;
+    border: 1px solid black;
+    font-family: 'EarlyGameBoy';
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-size: 0.5em;
+}
+
+
 
 /* Texto Logo GameBoy */
 
@@ -347,10 +389,7 @@ body{
 
 .letra-boton{
     font-size: 1.5em;
-    font-family: 'Lato', sans-serif;
     color: #90909024;
-    
-    
 }
 
 /* Botones Select & Start */
