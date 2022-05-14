@@ -1,7 +1,7 @@
-# GAME BOY COLOR 
+# Proyecto Videoconsola portátil en HTML/CSS
 
-En este proyecto, gracias a las tecnologías HTML y CSS he creado una videoconsola (GameBoy Color) Utilizando < div > y modificando su estilo con CSS.
-A continuación podrás ver explicado en detalle los retos encontrados durante el desarrollo de esta proyecto. 
+Esta consola es una Nintendo Game Boy Color creada enteramente con las tecnologias HTML y CSS sin utilizar ninguna imagen,video,gif.
+
 
 ## Funcionalidades
 
