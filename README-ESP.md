@@ -33,6 +33,6 @@ Una pequeña función de JavaScript hará que el display se encienda / apague.
 
 -------------------------------------------------
 
-![GameBoyColor](img/GameBoy-Color-on.png)
+![GameBoyColor](/img/GameBoyColorOn.png)
 
 

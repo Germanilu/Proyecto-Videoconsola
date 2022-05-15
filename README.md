@@ -33,6 +33,6 @@ You can switch on and off the GameBoy by clicking on the **"Start"** button, wit
 
 -------------------------------------------------
 
-![GameBoyColor](img/GameBoy-Color-on.png)
+![GameBoyColor](/img/GameBoyColorOn.png)
 
 
