@@ -22,7 +22,7 @@ The bottom part of the display is made with clip-path and, to be able to apply a
 
 ### How to use
 
-You can switch on and off the GameBoy by clicking on the "Start" button, with a small JS function the display will switch on and off.
+You can switch on and off the GameBoy by clicking on the **"Start"** button, with a small JS function the display will switch on and off.
 
 -------------------------------------------------
 

@@ -22,7 +22,7 @@ La parte inferior del display de la consola fue realizada con clip-path y para p
 
 ### Funcionamiento
 
-Puedes encender y apagar la GameBoy presionando el boton "Start"
+Puedes encender y apagar la GameBoy presionando el boton **"Start"**
 Una pequeña función de JavaScript hará que el display se encienda / apague.
 
 -------------------------------------------------
