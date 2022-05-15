@@ -27,4 +27,12 @@ Una pequeña función de JavaScript hará que el display se encienda / apague.
 
 -------------------------------------------------
 
-**Ver la consola:** [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)
+### Resultado Final
+
+**Puedes ver la consola aqui: [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)**
+
+-------------------------------------------------
+
+![GameBoyColor](img/GameBoy-Color-on.png)
+
+

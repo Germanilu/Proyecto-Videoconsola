@@ -26,8 +26,13 @@ You can switch on and off the GameBoy by clicking on the "Start" button, with a 
 
 -------------------------------------------------
 
-**You can see the result here:** [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)
 
+### Final Result
 
+**You can see the result here: [Game Boy Color](https://germanilu.github.io/Proyecto-Videoconsola/)**
+
+-------------------------------------------------
+
+![GameBoyColor](img/GameBoy-Color-on.png)
 
 
