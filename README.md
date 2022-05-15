@@ -7,7 +7,7 @@
 
 ## Nintendo GameBoy Color
 
-This is a Game Boy ***Game Boy <span style="color:#a73569">C</span><span style="color:#643a8d">o</span><span style="color:#a4d562">l</span><span style="color:#cdc44f">o</span><span style="color:#4489a7">r</span>*** console made with pure ***HTML / CSS / JS*** without the use of *Images, Videos or GIF.*
+This is a Nintendo ***Game Boy <span style="color:#a73569">C</span><span style="color:#643a8d">o</span><span style="color:#a4d562">l</span><span style="color:#cdc44f">o</span><span style="color:#4489a7">r</span>*** console made with pure ***HTML / CSS / JS*** without the use of *Images, Videos or GIF.*
 
 ## How was it built
 
