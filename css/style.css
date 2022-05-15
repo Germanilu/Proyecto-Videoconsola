@@ -449,6 +449,10 @@ background: linear-gradient(0deg, rgb(48, 50, 51) 7%, rgba(43,47,48,1) 48%, rgba
     border: 0.01em solid black;
 }
 
+.contenedorA:active{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
+
 
 .contenedorB{
     width: 3em;
@@ -466,6 +470,10 @@ background: linear-gradient(0deg, rgb(48, 50, 51) 7%, rgba(43,47,48,1) 48%, rgba
     box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.75);
     cursor: pointer;
     border: 0.01em solid black;
+}
+
+.contenedorB:active{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 
 .letra-boton{
@@ -496,6 +504,9 @@ background: linear-gradient(0deg, rgb(48, 50, 51) 7%, rgba(43,47,48,1) 48%, rgba
     align-items: center;
     cursor: pointer;
 }
+.contenedor-select:active{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+}
 
 .contenedor-start{
     width: 2em;
@@ -508,6 +519,10 @@ background: linear-gradient(0deg, rgb(48, 50, 51) 7%, rgba(43,47,48,1) 48%, rgba
     flex-direction: column;
     align-items: center;
     cursor: pointer;
+}
+
+.contenedor-start:active{
+    box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 }
 
 .mid-button-text{
