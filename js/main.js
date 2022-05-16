@@ -9,7 +9,7 @@ function myFunction() {
         textoGameboy.style.display = "block";
         textoNintendo.style.display = "flex";
         led.classList.add("led-animation");
-        audio.setAttribute("src","/mp3/GameBoy-Audio-Sound.mp3");
+        audio.setAttribute("src","../mp3/GameBoy-Audio-Sound.mp3");
         audio.play();
     } else {
         textoGameboy.style.display = "none";
